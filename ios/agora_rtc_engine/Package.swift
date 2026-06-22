@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "agora-rtc-engine", targets: ["agora_rtc_engine"])
     ],
     dependencies: [
-        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .upToNextMajor(from: "4.6.2"))
+        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", revision: "db11601e5cc10e74d4f03157c063711156838e75")
     ],
     targets: [
         .target(
